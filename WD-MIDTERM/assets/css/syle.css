@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    height: 80px;
+    background: #fdfdfd;
+    display: flex;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2);
+    border-bottom: 2px solid #000;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.logo {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #030202;
+    padding: 0 1.5rem;
+}
+
+.nav-items a:hover {
+    color: #fff;
+}
+
+.LogIn {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border: none;
+    font-weight: 700;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.LogIn a {
+    color: rgb(86, 58, 247);
+    text-decoration: none;
+}
+
+.SignUp {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border: none;
+    font-weight: 700;
+    background: #761bff;
+    cursor: pointer;
+}
+
+.SignUp a {
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+}
+
+
+
+.hero {
+    background: #f8f8f7;
+    padding: 3rem calc((100vw - 1300px) / 2);
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+
+.hero .container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 95vh;
+    line-height: 1.5;
+}
+
+.hero .column-left {
+    flex-basis: 40%;
+  padding: 0rem 2rem;  
+}
+
+.hero .column-right {
+    flex-basis: 40%;
+    padding: 0rem 2rem;
+    line-height: 1.3;
+}
+
+/*
+display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 95vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #000;
+    padding: 0rem 2rem;
+
+.hero .column-left {
+ flex-basis: 40%;
+  padding: 0rem 2rem;  
+
+}
+.hero .column-left p {
+    margin-bottom: 2rem;
+    font-size: 1.0rem;S
+    line-height: 1.5;
+}
+
+hero .column-right {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+    color: #000;
+    padding: 0rem 2rem;
+}*/
+
+.hero .cta {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: none;
+    background: #310bf0;
+    cursor: pointer;
+    border-radius: 50px;
+  
+}
+
+.hero cta a{
+    text-decoration: none;
+    color: #f8f8f7;
+}
+.hero .cta:hover {
+    background: #fff;
+    color: #000;
+}
+
+.hero .cta:hover a {
+    color: #000;
+}
+.image{
+    background: #b8abcb;
+    padding: 3rem calc((100vw - 1300px) / 2);
+    height: 40vh;
+}
+.image h1{
+    text-align: center;
+}
+.info {
+    background: #f8f8f7;
+    padding: 3rem calc((100vw - 1300px) / 2);
+    display: flex;
+    justify-content: space-between;
+}
+
+.info h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+
+.info .container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 40vh;
+    line-height: 1.5;
+}
+
+.info .column-left {
+    flex-basis: 40%;
+  padding: 0rem 2rem;  
+}
+
+.info .column-right {
+    flex-basis: 40%;
+    padding: 0rem 2rem;
+    line-height: 1.3;
+}
+
+.info .cta {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: none;
+    background: #310bf0;
+    cursor: pointer;
+    border-radius: 50px;
+  
+}
+
+.info cta a{
+    text-decoration: none;
+    color: #f8f8f7;
+}
+.info .cta:hover {
+    background: #fff;
+    color: #000;
+}
+
+.info .cta:hover a {
+    color: #000;
+}
+.features {
+    background: #f3e5e5;
+    padding: 3rem calc((100vw - 1300px) / 2);
+}
+
+.features .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: space-between;
+    
+}
+
+.features .feature {
+    margin-bottom: 2rem;
+}
+
+.features .feature p {
+    font-size: 1.0rem;
+    line-height: 1.5;
+}
+
+footer {
+    background: #f3e5e5;
+    padding: 3rem calc((100vw - 1300px) / 2);
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 1.0rem;
+    line-height: 1.5;
+}
