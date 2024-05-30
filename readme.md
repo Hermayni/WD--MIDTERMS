@@ -62,7 +62,7 @@ Guiding Question:
   The project involves creating a landing page based on provided designs and specifications. This task is designed to assess the student's understanding and expertise in web development, specifically focusing on HTML and CSS.
    <br>
    <br>
-   -  Whats the purpose
+-  Whats the purpose
 <br>
 The primary purpose of this project is to evaluate the student's proficiency in web development by asking them to program a given landing page. This will help the instructor to understand the student's ability to: 
 <br>
@@ -71,19 +71,16 @@ The primary purpose of this project is to evaluate the student's proficiency in 
            <li>Implement design specifications accurately</li>
           <li>Demonstrate an understanding of responsive design principles</li>
           <li>Create cross-browser compatible web pages</li>
-
-
 <br>
 <br>
 - What are key components
 <br>
 The key components of this project include:
 
-Structure: Creating a well-organized HTML structure that follows semantic best practices.
-Styling: Implementing the design using CSS, ensuring proper layout, typography, colors, and other visual elements.
-Responsiveness: Designing the landing page to be responsive, meaning it adapts to various screen sizes and devices.
+Structure: Creating a well-organized HTML structure that follows semantic best practices.<br>
+Styling: Implementing the design using CSS, ensuring proper layout, typography, colors, and other visual elements.<br>
+Responsiveness: Designing the landing page to be responsive, meaning it adapts to various screen sizes and devices.<br>
 Cross-browser compatibility: Ensuring the landing page displays correctly in different browsers, such as Google Chrome, Firefox, Safari, and Microsoft Edge.
-
 <br>
 <br>
 - What technology used and how it is used
